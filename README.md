@@ -26,12 +26,24 @@ User Stores:
 -As a user I want to see a victory/loss message.
 
 Reach Goals:
+
 -As a user I want to see my lifetime record.
 
 
 
+Technologies Utilized:
 
+-View Engine => Handlebars
 
+-Front End Framework => Backbone.js
+
+-Websocket => Socket I/OR
+
+-Server => Express
+
+-Database => MongoDB
+
+-ORM => Mongoose
 
 
 
