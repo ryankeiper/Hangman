@@ -38,7 +38,7 @@ Reach Goals:
 
 
   ---brought to you by:
-   H. Tyler Brooks
-   Ryan Keiper
-   Diana Jurgielewicz
+   H. Tyler Brooks,
+   Ryan Keiper,
+   Diana Jurgielewicz,
    Ali Topaloglu
