@@ -1,5 +1,5 @@
 var GuessesListView = Backbone.View.extend({
-  el: '#characters',
+  el: '#guessedLetters',
 
   initialize: function(){
     console.log("guesses list view created")
