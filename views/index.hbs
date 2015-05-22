@@ -1,12 +1,6 @@
-<input class="word" input type="text" char={{letters}} placeholder="word">Word</input>
+<h2>Guess a letter:</h2>
 
-<div id="characters">
-<span class="character"input type="text" char={{letters}} placeholder="input">Characters</span>
-</div>
-
-<button>Guess</button>
-
-<div id="characters">
+<div id="alphabet">
 	<span class="character" char="A">A</span>
 	<span class="character" char="B">B</span>
 	<span class="character" char="C">C</span>
@@ -34,3 +28,6 @@
 	<span class="character" char="Y">Y</span>
 	<span class="character" char="Z">Z</span>
 </div>
+
+<input class="word" input type="text" char={{letters}} placeholder="word">
+<input class="word_guess" type="button" value="solve!">

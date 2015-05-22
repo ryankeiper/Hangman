@@ -2,6 +2,10 @@ var GuessView = Backbone.View.extend({
   className: "guess",
   tagName: "span",
 
+  events: {
+    'click.button#submit_guess': 'guessLetter'
+  },
+
   initialize: function(){
     console.log("new guess view instantiated");
     this.listenTo(this.model, 'change', this.render);
@@ -9,7 +13,11 @@ var GuessView = Backbone.View.extend({
   },
 
   render: function(){
-    this.$el.append(this.model.get("value"))
+    console.log(this)
+  },
+
+  guessLetter: function() {
+    console.log("GUESSING LETTER")
   }
 
 })

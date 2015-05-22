@@ -12,6 +12,9 @@ app.get("/", function( req, res ){
   res.render("index", {message: "hello world"});
 })
 
+app.get("/guesses", function( req, res ){
+  res.render("index", {message: "hello world"});
+})
 
 io.on('connection', function(socket){
   console.log('A user connected');
