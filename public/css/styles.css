@@ -2,3 +2,44 @@ body {
   background-color: red;
 
 }
+
+.word{
+	text-align: center;
+	display:flex;
+	allign
+}
+
+.placeholder {
+  font-size: 20px;
+  display: block;
+  border-bottom: 3px solid #fff;
+  width: 37px;
+  margin-right: 4px;
+  text-align: center;
+  height: 30px;
+  width: 30px;
+}
+
+#characters{
+	display: block;
+}
+
+.characters{
+	text-align: center;
+}
+
+span {
+	background: #93be4f;
+    padding: 2px 8px;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 3px;
+    color: #fff;
+    width: 21px;
+    text-align: center;
+    margin: 0 1px 5px 0; 
+}
